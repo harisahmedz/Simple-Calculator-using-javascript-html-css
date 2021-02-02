@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id='calc-contain'>
+  
+        <form name="calculator">
+          
+          <input type="text" name="answer" />
+        
+          
+          <input type="button" value=" 1 " onclick=" displaynum(1)" />
+          <input type="button" value=" 2 " onclick="displaynum(2)" />
+          <input type="button" value=" 3 " onclick="displaynum(3)" />
+          <input type="button" value=" + " onclick="displaynum('+')" />
+          <br/>
+          
+          <input type="button" value=" 4 " onclick="displaynum(4)" />
+          <input type="button" value=" 5 " onclick="displaynum(5)" />
+          <input type="button" value=" 6 " onclick="displaynum(6)" />
+          <input type="button" value=" - " onclick="displaynum('-')" />
+          </br>
+        
+          <input type="button" value=" 7 " onclick="displaynum(7)" />
+          <input type="button" value=" 8 " onclick="displaynum(8)" />
+          <input type="button" value=" 9 " onclick="displaynum(9)" />
+          <input type="button" value=" x " onclick="displaynum('*')" />
+          </br>
+      
+          <input type="button" class= "clear"value=" c " onclick="clr()" />
+          <input type="button" value=" 0 " onclick="displaynum(0)" />
+          <input type="button" class= "equal" value=" = " onclick="eql()" />
+          <input type="button" value=" / " onclick="displaynum('/')" />
+          </br>
+
+  
+        </form>
+    
+      </div>
+<script src="index.js"></script>
+</body>
+</html>
